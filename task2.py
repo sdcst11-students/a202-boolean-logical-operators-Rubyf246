@@ -31,3 +31,10 @@ Enter a number: 8
 Enter a number: 64
 64 is both a perfect square and divisible by 2.
 """
+n = float(input("Give me a number"))
+if n%2==0:
+    print (f"{n} is only divisible by two")
+else: 
+    print(f"{n} is not divisible by two")
+
+n**0.5== int 

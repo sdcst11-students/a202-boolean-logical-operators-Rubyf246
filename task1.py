@@ -32,3 +32,8 @@ Enter the distance from the sun in AU: 2
 That is not within normal Earth or Mars orbit.
 
 """
+o = float(input("Give me a number"))
+if o >= 0.9759 and o <= 1.666:
+    print ("that is within normal Earth and Mars orbit")
+else: 
+    print("that is not within normal Earth and Mar orbit")
