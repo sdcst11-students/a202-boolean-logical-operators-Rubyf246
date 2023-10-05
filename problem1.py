@@ -25,4 +25,15 @@ Enter a number: 36
 Enter a number: 16
 16 is not frue
 """
+n = int(input("Give me a number"))
+if n%6==0:
+    six=1
+else: six=0
 
+if n%8==0:
+    eight=1
+else: eight=0 
+
+if six==1 and eight==0:
+    print (f"{n} is frue")
+else: (print (f"{n} is not frue"))
